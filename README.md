@@ -47,6 +47,9 @@ docker-compose exec web python manage.py migrate
 - Fill out the form and create new notes.
 - View saved notes in the right panel.
 
+
+### Additional information
+
 ## Endpoints
 
 ```
@@ -60,3 +63,5 @@ docker-compose exec web python manage.py migrate
 ```
 docker-compose down
 ```
+
+the requirements.txt file is located in the project root.
