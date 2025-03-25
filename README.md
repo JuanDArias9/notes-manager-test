@@ -64,5 +64,6 @@ docker-compose exec web python manage.py migrate
 docker-compose down
 ```
 
-[!NOTE]
-the requirements.txt file is located in the project root.
+> [!NOTE]
+> The requirements.txt file is located in the project root.
+
