@@ -1,3 +1,4 @@
 db.sqlite3
 enenv
 __pycache__
+staticfiles/
