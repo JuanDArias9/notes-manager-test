@@ -36,19 +36,12 @@ sh start.sh
 
 This will start the application with Docker on http://localhost:8000
 
-### 3. Run Migrations
-
-In another terminal, execute:
-
-```
-docker-compose exec web python manage.py migrate
-```
-
-### 4. Access the Application
+### 3. Access the Application
 
 - Open your browser and go to: http://localhost:8000.
 - Fill out the form and create new notes.
 - View saved notes in the right panel.
+- Admin module: http://localhost:8000/admin/
 
 ### Additional information
 
