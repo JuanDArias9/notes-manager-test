@@ -4,7 +4,7 @@ services:
   web:
     build: .
     container_name: django-notes-manager
-    command: gunicorn --bind 0.0.0.0:8000 notes_manager_project.wsgi:application
+    command: /start
     volumes:
       - .:/app
     ports:
