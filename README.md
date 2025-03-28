@@ -25,13 +25,16 @@ git clone https://github.com/JuanDArias9/notes-manager-test.git
 cd notes-manager-test
 ```
 
-### 2. Run the project with Docker (PORT: 8000)
+> [!WARNING]
+> Check Docker is running
+
+### 2. Run the project
 
 ```
-docker-compose up --build
+sh start.sh
 ```
 
-This will start the application on http://localhost:8000
+This will start the application with Docker on http://localhost:8000
 
 ### 3. Run Migrations
 
@@ -47,6 +50,8 @@ docker-compose exec web python manage.py migrate
 - Fill out the form and create new notes.
 - View saved notes in the right panel.
 
+### Additional information
+
 ## Endpoints
 
 ```
@@ -60,3 +65,6 @@ docker-compose exec web python manage.py migrate
 ```
 docker-compose down
 ```
+
+> [!NOTE]
+> The requirements.txt file is located in the project root.
